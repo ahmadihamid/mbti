@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+    <meta  http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta  name="viewport"  content="width=device-width, initial-scale=1">
+    <title>Analisa keperibadian, MBTI-test!</title>
+    <meta  name="description"  content="Source code generated using layoutit.com">
+    <meta  name="author"  content="LayoutIt!">
+    <link  href="css/bootstrap.min.css"  rel="stylesheet">
+    <link  href="css/style.css"  rel="stylesheet">
+    <script  src="js/jquery.min.js"></script>
+    <script  src="js/bootstrap.min.js"></script>
+    <script  src="js/scripts.js"></script>
+    <script  src="js/mbtikuroro.js"></script>
+    <script  src="js/kembalipadanya.js"></script>
+  </head>
+  <body>
+    <div  id="semesta">
+      <div  class="container-fluid">
+        <div  class="row">
+          <div  class="col-md-12">
+            <div  class="page-header">
+              <h1>MBTI-test!<small> Yuk Kenalan Sama Diri Sendiri</small></h1>
+            </div>
+            <div  class="tabbable"  id="tabs-520127">
+              <ul  class="nav nav-tabs">
+                <li  class="active"> <a  style="font-weight: bold;"  href="#panel-55081"
+
+                     data-toggle="tab">Test-it!</a> </li>
+                <li> <a  style="font-weight: bold; color: rgb(35, 82, 124);"  href="#panel-654258"
+
+                     data-toggle="tab">Hasil!</a> </li>
+              </ul>
+              <div  class="tab-content">
+                <div  class="tab-pane active"  id="panel-55081">
+                  <p> </p>
+                  <div  class="jumbotron">
+                    <h2> Halo, kakak! </h2>
+                    <p> <br>
+                      Di sini kamu akan mencari tahu kepribadian kamu
+                      berdasarkan <a  style="font-weight: bold;"  target="_blank"
+
+                         href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator">Myers–Briggs
+                        Type Indicator (MBTI)</a>, lewat beberapa pasang
+                      pernyataan. Pilih salah satu pernyataan dari 60 pasang
+                      pilihan yang paling sesuai dengan diri kamu. Harus jujur
+                      ya kakak. Hasil analisa kepribadian bisa dilihat di tab
+                      "hasil" di atas.</p>
+                    <p> <span  style="font-weight: bold;"><a  class="btn btn-primary btn-large"
+
+                                                              href="#">Disclaimer</a></span> </p>
+                  </div>
+                  <br>
+                  <div  class="tambahan">
+                    <table  style="width: 100%;"  class="table"  border="0">
+                      <thead>
+                        <tr  class="warning">
+                          <th> # </th>
+                          <th> Pernyataan A</th>
+                          <th  colspan="2"  rowspan="1"  style="width: 119px; text-align: left;">Pilihan</th>
+                          <th>Pernyataan B</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td  class="warning"> 1 </td>
+                          <td  class="danger">Spontan, Fleksibel, tidak diikat
+                            waktu</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="1"  class="perceiving"  type="radio"><br>
+                          </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="1"  class="judging"
+
+                               type="radio"><br>
+                          </td>
+                          <td  class="success">Terencana dan memiliki deadline
+                            jelas</td>
+                        </tr>
+                        <tr  class="active">
+                          <td  class="warning">2</td>
+                          <td  class="danger">Lebih memilih berkomunikasi dengan
+                            menulis</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="2"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="2"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Lebih memilih berkomunikasi
+                            dengan bicara</td>
+                        </tr>
+                        <tr  class="success">
+                          <td  class="warning"> 3 </td>
+                          <td  class="danger">Tidak menyukai hal-hal yang
+                            bersifat mendadak dan di luar perencanaan</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="3"  class="judging"  type="radio"> </td>
+                          <td  style="text-align: center;"><input  required="required"
+
+                               value="1"  name="3"  class="perceiving"  type="radio">
+                          </td>
+                          <td  class="success">Perubahan mendadak tidak jadi
+                            masalah</td>
+                        </tr>
+                        <tr>
+                          <td  class="warning"> 4 </td>
+                          <td  class="danger">Obyektif</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="4"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="4"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Subyektif</td>
+                        </tr>
+                        <tr>
+                          <td  class="warning"> 5 </td>
+                          <td  class="danger">Menemukan dan mengembangkan ide
+                            dengan mendiskusikannya</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="5"  class="extrovert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="5"  class="introvert"
+
+                               type="radio"> </td>
+                          <td  class="success">Menemukan dan mengembangkan ide
+                            dengan merenungkan</td>
+                        </tr>
+                        <tr  class="success">
+                          <td  class="warning">6<br>
+                          </td>
+                          <td  class="danger">Bergerak dari gambaran umum baru
+                            ke detail<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="6"  class="intuition"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="6"  class="sensing"
+
+                               type="radio"> </td>
+                          <td  class="success">Bergerak dari detail ke gambaran
+                            umum sebagai kesimpulan akhir<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">7<br>
+                          </td>
+                          <td  class="danger">Berorientasi pada dunia eksternal
+                            (kegiatan, orang)<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="7"  class="extrovert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="7"  class="introvert"
+
+                               type="radio"> </td>
+                          <td  class="success">Berorientasi pada dunia internal
+                            (memori, pemikiran, ide)<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">8</td>
+                          <td  class="danger">Berbicara mengenai masalah yang
+                            dihadapi hari ini dan langkah-langkah praktis
+                            mengatasinya<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="8"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="8"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Berbicara mengenai visi masa
+                            depan dan konsep-konsep mengenai visi tersebut<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">9</td>
+                          <td  class="danger">Diyakinkan dengan penjelasan yang
+                            menyentuh perasaan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="9"  class="feeling"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="9"  class="thinking"
+
+                               type="radio"> </td>
+                          <td  class="success">Diyakinkan dengan penjelasan yang
+                            masuk akal<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">10</td>
+                          <td  class="danger">Fokus pada sedikit hobi namun
+                            mendalam<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="10"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="10"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Fokus pada banyak hobi secara
+                            luas dan umum<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">11</td>
+                          <td  class="danger">Tertutup dan mandiri<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="11"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="11"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Sosial dan ekspresif<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">12</td>
+                          <td  class="danger">Aturan, jadwal dan target sangat
+                            mengikat dan membebani<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="12"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="12"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Aturan, jadwal dan target akan
+                            sangat membantu dan memperjelas tindakan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">13</td>
+                          <td  class="danger">Menggunakan pengalaman sebagai
+                            pedoman<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="13"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="13"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Menggunakan imajinasi dan
+                            perenungan sebagai pedoman<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">14</td>
+                          <td  class="danger">Berorientasi tugas dan job
+                            description<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="14"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="14"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Berorientasi pada manusia dan hubungan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">15</td>
+                          <td  class="danger">Pertemuan dengan orang lain dan
+                            aktivitas sosial melelahkan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="15"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="15"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Bertemu orang dan aktivitas
+                            sosial membuat bersemangat<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">16</td>
+                          <td  class="danger">SOP sangat membantu<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="16"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="16"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">SOP sangat membosankan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">17</td>
+                          <td  class="danger">Mengambil keputusan berdasar
+                            logika dan aturan main<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="17"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="17"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Mengambil keputusan berdasar
+                            perasaan pribadi dan kondisi orang lain<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">18</td>
+                          <td  class="danger">Bebas dan dinamis<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="18"  class="intuition"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="18"  class="sensing"
+
+                               type="radio"> </td>
+                          <td  class="success">Prosedural dan tradisional<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">19</td>
+                          <td  class="danger">Berorientasi pada hasil<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="19"  class="judging"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="19"  class="perceiving"
+
+                               type="radio"> </td>
+                          <td  class="success">Berorientasi pada proses<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">20</td>
+                          <td  class="danger">Beraktifitas sendirian di rumah
+                            menyenangkan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="20"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="20"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Beraktifitas sendirian di rumah
+                            membosankan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">21</td>
+                          <td  class="danger">Membiarkan orang lain bertindak
+                            bebas asalkan tujuan tercapai<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="21"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="21"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Mengatur orang lain dengan tata
+                            tertib agar tujuan tercapai<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">22</td>
+                          <td  class="danger">Memilih ide inspiratif lebih
+                            penting daripada fakta<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="22"  class="intuition"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="22"  class="sensing"
+
+                               type="radio"> </td>
+                          <td  class="success">Memilih fakta lebih penting
+                            daripada ide inspiratif</td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">23</td>
+                          <td  class="danger">Mengemukakan tujuan dan sasaran
+                            lebih dahulu<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="23"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="23"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Mengemukakan kesepakatan terlebih
+                            dahulu<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">24</td>
+                          <td  class="danger">Fokus pada target dan mengabaikan
+                            hal-hal baru<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="24"  class="judging"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="24"  class="perceiving"
+
+                               type="radio"> </td>
+                          <td  class="success">Memperhatikan hal-hal baru dan
+                            siap menyesuaikan diri serta mengubah target<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">25</td>
+                          <td  class="danger">Kontinuitas dan stabilitas lebih
+                            diutamakan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="25"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="25"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Perubahan dan variasi lebih
+                            diutamakan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">26</td>
+                          <td  class="danger">Pendirian masih bisa berubah
+                            tergantung situasi nantinya<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="26"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="26"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Berpegang teguh pada pendirian<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">27</td>
+                          <td  class="danger">Bertindak step by step dengan
+                            timeframe yang jelas<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="27"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="27"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Bertindak dengan semangat tanpa
+                            menggunakan timeframe<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">28</td>
+                          <td  class="danger">Berinisiatif tinggi hampir dalam
+                            berbagai hal meskipun tidak berhubungan dengan
+                            dirinya<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="28"  class="extrovert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="28"  class="introvert"
+
+                               type="radio"> </td>
+                          <td  class="success">Berinisiatif bila situasi memaksa
+                            atau berhubungan dengan kepentingan sendiri<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">29</td>
+                          <td  class="danger">Lebih memilih tempat yang tenang
+                            dan pribadi untuk berkonsentrasi<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="29"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="29"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Lebih memilih tempat yang ramai
+                            dan banyak interaksi / aktifitas<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">30</td>
+                          <td  class="danger">Menganalisa<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="30"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="30"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Berempati<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">31</td>
+                          <td  class="danger">Berpikir secara matang sebelum
+                            bertindak<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="31"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="31"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Berani bertindak tanpa terlalu
+                            lama berfikir<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">32</td>
+                          <td  class="danger">Menghargai seseorang karena sifat
+                            dan perilakunya<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="32"  class="feeling"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="32"  class="thinking"
+
+                               type="radio"> </td>
+                          <td  class="success">Menghargai seseorang karena skill
+                            dan faktor teknis<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">33</td>
+                          <td  class="danger">Merasa nyaman bila situasi tetap
+                            terbuka terhadap pilihan-pilihan lain<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="33"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="33"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Merasa tenang bila semua sudah
+                            diputuskan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">34</td>
+                          <td  class="danger">Menarik kesimpulan dengan lama dan
+                            hati-hati<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="34"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="34"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">menarik kesimpulan dengan cepat
+                            sesuai naluri<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">35</td>
+                          <td  class="danger">Mengekspresikan semangat<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="35"  class="extrovert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="35"  class="introvert"
+
+                               type="radio"> </td>
+                          <td  class="success">Menyimpan semangat dalam hati<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">36</td>
+                          <td  class="danger">Mengklarifikasi ide dan teori
+                            sebelum dipraktekkan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="36"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="36"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Memahami ide dan teori saat
+                            mempraktekkannya langsung<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">37</td>
+                          <td  class="danger">Melibatkan perasaan itu tidak
+                            profesional<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="37"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="37"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Terlalu kaku pada peraturan dan
+                            pekerjaan itu kejam<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">38</td>
+                          <td  class="danger">Mencari kesempatan untuk
+                            berkomunikasi secara perorangan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="38"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="38"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Memilih berkomunikasi pada
+                            sekelompok orang<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">39</td>
+                          <td  class="danger">Yang penting situasi harmonis
+                            terjaga<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="39"  class="feeling"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="39"  class="thinking"
+
+                               type="radio"> </td>
+                          <td  class="success">Yang penting tujuan tercapai<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">40</td>
+                          <td  class="danger">Ketidakpastian itu seru,
+                            menegangkan dan membuat hati lebih senang<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="40"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="40"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Ketidakpastian membuat bingung
+                            dan meresahkan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">41</td>
+                          <td  class="danger">Berfokus pada masa kini (apa yang
+                            bisa diperbaiki sekarang)<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="41"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="41"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Berfokus pada masa depan (apa
+                            yang mungkin dicapai di masa depan)<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">42</td>
+                          <td  class="danger">Mempertanyakan</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="42"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="42"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Mengakomodasi<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">43</td>
+                          <td  class="danger">Secara konsisten mengamati dan
+                            mengingat detail<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="43"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="43"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Mengamati dan mengingat detail
+                            hanya bila berhubungan dengan pola<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">44</td>
+                          <td  class="danger">Situasi last minute membuat
+                            bersemangat dan memunculkan potensi<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="44"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="44"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Situasi last minute sangat
+                            menyiksa, membuat stress dan merupakan kesalahan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">45</td>
+                          <td  class="danger">Lebih suka komunikasi tidak
+                            langsung (telp, surat, e-mail)<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="45"  class="introvert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="45"  class="extrovert"
+
+                               type="radio"> </td>
+                          <td  class="success">Lebih suka komunikasi langsung
+                            (tatap muka)<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning"> 46</td>
+                          <td  class="danger">Praktis<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="46"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="46"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Konseptual<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">47</td>
+                          <td  class="danger">Perubahan adalah musuh<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="47"  class="judging"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="47"  class="perceiving"
+
+                               type="radio"> </td>
+                          <td  class="success">Perubahan adalah semangat hidup<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">48</td>
+                          <td  class="danger">Sering dianggap keras kepala</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="48"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="48"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Sering dianggap terlalu memihak</td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">49</td>
+                          <td  class="danger">Bersemangat saat menolong orang
+                            keluar dari kesalahan dan meluruskan<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="49"  class="feeling"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="49"  class="thinking"
+
+                               type="radio"> </td>
+                          <td  class="success">Bersemangat saat mengkritik dan
+                            menemukan kesalahan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">50</td>
+                          <td  class="danger">Bertindak sesuai situasi dan
+                            kondisi yang terjadi saat itu<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="50"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="50"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Bertindak sesuai apa yang sudah
+                            direncanakan<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">51</td>
+                          <td  class="danger">Menggunakan keterampilan yang
+                            sudah dikuasai<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="51"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="51"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Menyukai tantangan untuk
+                            menguasai keterampilan baru<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">52</td>
+                          <td  class="danger">Membangun ide pada saat berbicara<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="52"  class="extrovert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="52"  class="introvert"
+
+                               type="radio"> </td>
+                          <td  class="success">Membangun ide dengan matang baru
+                            membicarakannya<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">53</td>
+                          <td  class="danger">Memilih cara yang sudah ada dan
+                            sudah terbukti<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="53"  class="sensing"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="53"  class="intuition"
+
+                               type="radio"> </td>
+                          <td  class="success">Memilih cara yang unik dan belum
+                            dipraktekkan orang lain<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">54</td>
+                          <td  class="danger">Hidup harus sudah diatur dari awal<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="54"  class="judging"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="54"  class="perceiving"
+
+                               type="radio"> </td>
+                          <td  class="success">Hidup seharusnya mengalir sesuai
+                            kondisi<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">55</td>
+                          <td  class="danger">Standar harus ditegakkan di atas
+                            segalanya (itu menunjukkan kehormatan dan harga
+                            diri)<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="55"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="55"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Perasaan manusia lebih penting
+                            dari sekadar standar (yang adalah benda mati)<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">56</td>
+                          <td  class="danger">Daftar dan checklist adalah
+                            panduan penting</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="56"  class="judging"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="56"  class="perceiving"
+
+                               type="radio"> </td>
+                          <td  class="success">Daftar dan checklist adalah tugas
+                            dan beban<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">57</td>
+                          <td  class="danger">Menuntut perlakuan yang adil dan
+                            sama pada semua orang<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="57"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="57"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Menuntut perlakuan khusus sesuai
+                            karakteristik masing-masing orang</td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">58</td>
+                          <td  class="danger">Mementingkan sebab-akibat<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="58"  class="thinking"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="58"  class="feeling"
+
+                               type="radio"> </td>
+                          <td  class="success">Mementingkan nilai-nilai personal<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">59</td>
+                          <td  class="danger">Puas ketika mampu beradaptasi
+                            dengan momentum yang terjadi</td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="59"  class="perceiving"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="59"  class="judging"
+
+                               type="radio"> </td>
+                          <td  class="success">Puas ketika mampu menjalankan
+                            semuanya sesuai rencana<br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td  class="warning">60</td>
+                          <td  class="danger">Spontan, Easy Going, fleksibel<br>
+                          </td>
+                          <td  style="text-align: center;"  class="danger"><input
+
+                               checked="checked"  required="required"  value="1"
+
+                               name="60"  class="extrovert"  type="radio"> </td>
+                          <td  style="text-align: center;"  class="success"><input
+
+                               required="required"  value="1"  name="60"  class="introvert"
+
+                               type="radio"> </td>
+                          <td  class="success">Berhati-hati, penuh pertimbangan,
+                            kaku</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div  class="tab-pane"  id="panel-654258">
+                  <p> </p>    
+
+      <br>
+       <div  class="jumbotron" id="laporkk">
+                    <h2> Selamat, kakak! </h2>
+                    <p> <br>
+                     <strong> Tipe Kepribadian kamu adalah :  </strong><div  id="hasil"> ini hasilnya</div>
+                      </p>
+                    <p> <span  style="font-weight: bold;"><a  target="_blank"
+
+                           class="btn btn-primary btn-large"  href="gambar/hxhmbti.png">Learn
+                          more</a></span> </p>
+                  </div>
+                  <br>                
+                  <div  class="page-header">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="back-to-top">Back to Top</a>
+      <script  src="js/jquery.min.js"></script>
+      <script  src="js/bootstrap.min.js"></script>
+      <script  src="js/scripts.js"></script> </div>
+  </body>
+</html>

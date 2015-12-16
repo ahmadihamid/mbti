@@ -1,0 +1,130 @@
+/* 
+buat kita sendiri kk
+pasang margin/pading kk? kiri kurang
+
+
+#nav nav-tabs {
+height: 300px;
+overflow: scroll; }
+
+#tabbable {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 23px;
+}
+
+
+#topmarkotop { position: fixed; top: 20px; left: 20px; }
+*/
+#semesta {
+    width:90%;
+    padding-left: 33px;
+    padding-bottom: 33px;    
+}
+
+
+body {
+    background: url(../gambar/personality.jpg);	
+    background-size: contain; 
+    font-family: 'Montserrat', sans-serif;
+    src: url(../fonts/Montserrat-Regular.ttf); /*URL to font*/
+}
+
+.page-header h1 {
+	font-family: 'Comic Book Fun'; /*a name to be used later*/
+    src: url(../fonts/ComicBookFun-Regular.ttf); /*URL to font*/
+    font-size: 55px;
+    vertical-align: middle;
+}
+
+.nav.nav-tabs {
+    font-family: 'Comic Book Fun'; /*a name to be used later*/
+    src: url(../fonts/ComicBookFun-Regular.ttf); /*URL to font*/
+    font-size: 33px;
+    vertical-align: middle;
+}
+
+h3 {
+    font-family: 'Comic Book Fun'; /*a name to be used later*/
+    src: url(../fonts/ComicBookFun-Regular.ttf); /*URL to font*/
+    font-size: 55px;
+    vertical-align: middle;
+}
+
+table {
+	opacity: 0.95;
+	font-family: 'Josefin Sans';
+    src: url(../fonts/JosefinSans-Regular.ttf); /*URL to font*/
+    vertical-align: middle;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout:fixed;
+}
+
+/*#table td:hover {
+    color           : #ffffff;
+}*/
+
+.hover { background-color: #eee; }
+
+td {
+    border: 2px solid #73AD21;
+    border-radius: 9px;
+    -moz-border-radius: 10px;
+    padding: 5px;
+    vertical-align: middle;
+
+}
+th {
+    border: 2px solid #73AD21;
+    border-radius: 9px;
+    -moz-border-radius: 10px;
+    padding: 5px;
+}
+
+img {
+    float:left;
+    margin-right: 20px;
+}
+
+.jumbotron {
+	opacity: 0.95;
+	/*color: #ff7c00;*/	
+	font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf); /*URL to font*/
+    font-weight: bold;
+}
+
+#laporkk.jumbotron {
+	opacity: 0.95;
+	/*color: #ca25a0;*/	
+	font-family: 'Josefin Sans';
+    src: url(../fonts/JosefinSans-Regular.ttf); /*URL to font*/
+    font-weight: bold;
+}
+
+/*
+#tab-ajah {
+	background-color: #272822;
+
+}
+
+*/
+
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: #27AE61 url("../gambar/up-arrow.png") no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
