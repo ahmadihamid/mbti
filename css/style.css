@@ -52,6 +52,7 @@ h3 {
     src: url(../fonts/ComicBookFun-Regular.ttf); /*URL to font*/
     font-size: 55px;
     vertical-align: middle;
+max-width: 100%;
 }
 
 table {
