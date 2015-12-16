@@ -88,6 +88,7 @@ th {
 img {
     float:left;
     margin-right: 20px;
+max-width: 100%;
 }
 
 .jumbotron {
